@@ -1,0 +1,18 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+pillow>=9.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+accelerate>=0.24.0
+
+# Optional dependencies (uncomment as needed)
+vllm>=0.2.0  # For high-performance VLLM backend
+olmocr>=0.1.0  # For PDF processing with olmocr
+ray[serve]>=2.8.0  # For scalable deployment
+pytest>=7.0.0  # For testing
+mypy>=1.0.0  # For type checking
+black>=23.0.0  # For code formatting
+isort>=5.0.0  # For import sorting
